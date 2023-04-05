@@ -116,4 +116,52 @@
       width: 50%;
     }
   }
+
+
+  @media (max-width: 767px) {
+    /* Reglas CSS para pantallas pequeñas */
+    h1 {
+      font-size: 36px;
+    }
+    
+    #timer {
+      font-size: 3em;
+    }
+    
+    input[type="number"] {
+      width: 60px;
+    }
+    
+    button {
+      padding: 8px 16px;
+    }
+    
+    table {
+      font-size: 14px;
+    }
+  }
+
+  
+  @media (max-width: 768px) {
+    /* Reglas CSS para pantallas pequeñas */
+    body {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    table {
+      width: 100%;
+    }
+  }
   
